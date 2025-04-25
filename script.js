@@ -32,16 +32,16 @@ async function render() {
   }
   listDiv.innerHTML = ``;
 
-  if(data = "Error is come") {
+//   if(data = "Error is come") {
 
-    const li = document.createElement("li");
-    console.log(data);
+//     const li = document.createElement("li");
+//     console.log(data);
     
-    li.innerHTML = data;
-    listDiv.appendChild(li);
+//     li.innerHTML = data;
+//     listDiv.appendChild(li);
 
-    return;
-  }
+//     return;
+//   }
 
   data.map((d) => {
     console.log(isLoading);
